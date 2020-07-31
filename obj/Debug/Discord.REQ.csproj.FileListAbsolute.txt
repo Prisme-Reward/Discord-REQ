@@ -1,0 +1,6 @@
+C:\Users\Zenrox\Documents\c#\dll\Discord.REQ\Discord.REQ\bin\Debug\Discord.REQ.dll
+C:\Users\Zenrox\Documents\c#\dll\Discord.REQ\Discord.REQ\bin\Debug\Discord.REQ.pdb
+C:\Users\Zenrox\Documents\c#\dll\Discord.REQ\Discord.REQ\obj\Debug\Discord.REQ.csprojAssemblyReference.cache
+C:\Users\Zenrox\Documents\c#\dll\Discord.REQ\Discord.REQ\obj\Debug\Discord.REQ.csproj.CoreCompileInputs.cache
+C:\Users\Zenrox\Documents\c#\dll\Discord.REQ\Discord.REQ\obj\Debug\Discord.REQ.dll
+C:\Users\Zenrox\Documents\c#\dll\Discord.REQ\Discord.REQ\obj\Debug\Discord.REQ.pdb
