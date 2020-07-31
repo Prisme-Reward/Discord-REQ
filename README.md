@@ -2,6 +2,10 @@
 
 An easily usable discord API for making selfbots, software handling discord in general. Here is a diagram representing the current functionalities
 
+# Download
+
+Click [**here**](https://github.com/Discord-REQ/Discord-REQ/releases/download/0.0.2/DiscordREQ.dll)<br> (pre releases)
+
 # How to use ?
 
 * Friend
