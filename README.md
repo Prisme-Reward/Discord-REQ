@@ -49,3 +49,12 @@ Click [**here**](https://github.com/Discord-REQ/Discord-REQ/releases/download/0.
     * `Discord.REQ.Webhook.CreateWebhook("Chan id", "token");`
   * Delete Webhook
     * `Discord.REQ.Webhook.DeleteWebhook("Server id", "Token");`
+* Group 
+  * Rename group
+    * `Discord.REQ.Group.RenameGroup("groupid", "name", "token");`
+  * Add user to a group
+    * `Discord.REQ.Group.AddToGroup("groupid", "userid", "token");`
+  * Kick from group
+    * `Discord.REQ.Group.KickFromGroup("GroupID", "userid" "token");`
+  * Leave group
+    * `Discord.REQ.Group.LeaveGroup("group id", "Token");`
