@@ -26,6 +26,8 @@ An easily usable discord API for making bots, software handling discord in gener
     * `Discord.REQ.Message.Typing("channelid", "token");`
   * Pins Message
     * `Discord.REQ.Message.Pins("channel id", "msgid", "token");`
+  * Edit Message
+    * `Discord.REQ.Message.Edit("New message", "message id", "channel id", "token");`
 * UserProfil
   * Set IDLE
     * `Discord.REQ.UserProfile.SetIdle("token");`
@@ -70,8 +72,6 @@ An easily usable discord API for making bots, software handling discord in gener
     * `Discord.REQ.UserServer.SetRoleMentionable("guild id", "role id", "token");`
   * Set role unmentionnable
     * `Discord.REQ.UserServer.SetRoleUnMentionable("guild id", "role id", "Token");`
-
-  
 * Webhook 
   * Create Webhook
     * `Discord.REQ.Webhook.Create("Chan id", "token");`
@@ -93,3 +93,35 @@ An easily usable discord API for making bots, software handling discord in gener
     * `Discord.REQ.Nitro.GenerateRandomCode();`
   * Check nitro code
     * `Discord.REQ.Nitro.Check("NitroCode");`
+* Channel 
+  * Delete channel
+    * `Discord.REQ.Channel.Delete("channel id", "token");`
+  * Create channel
+    * `Discord.REQ.Channel.Create("type 0 = text channel, type 2 = vocal channel, type 4 = Categories", "name", "guild id", "token");`
+  * Edit channel
+    * `Discord.REQ.Channel.Edit("ChannelId", "Token", "Name", "Type");`
+  * Set NSFW
+    * `Discord.REQ.Channel.setnsfw(true/false, "Channel id", "Token");`
+  * Set topic
+    * `Discord.REQ.Channel.settopic("topic", "channel id", "token");`
+  * Set name
+    * `Discord.REQ.Channel.SetName("Name", "Channel id", "token");`
+  * Set Rate limit
+    * `Discord.REQ.Channel.SetRateLimit("rate limit", "Channel id", "token");`
+* Emoji
+  * React
+    * `Discord.REQ.Reaction.React(string messageid, string channelid, string emojiurlencoded, string Token);`
+  * Unreact
+    * `Discord.REQ.Reaction.UnReact(string messageid, string channelid, string emojiurlencoded, string Token);`
+  * Delete all react
+    * `Discord.REQ.Reaction.DeleteAllReact(string messageid, string channelid, string Token);`
+  * Delete Emoji
+    * `Discord.REQ.Reaction.DeleteEmoji(string emojiid, string guildid, string Token);`
+* Template
+  * Create
+    * `Discord.REQ.Template.Create("guild id", "token");`
+  * Delete
+    * `Discord.REQ.Template.Delete("Guild id", "template code", "Token");`
+  * Use
+    * `Discord.REQ.Template.Use("template code", "token", "Server name");`
+
