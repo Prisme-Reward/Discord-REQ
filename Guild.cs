@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Discord.REQ
 {
-    public class Server
+    public class Guild
     {
         public static string Leave(string ServerID, string Token, string UserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36")
         {
