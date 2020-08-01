@@ -1,4 +1,4 @@
-![NuGet](https://cdn.discordapp.com/attachments/731812738069823488/739167432144584744/image2vector.svg](https://www.nuget.org/packages/DiscordREQ/)
+[![NuGet](https://img.shields.io/nuget/vpre/Discord.Net.svg?maxAge=2592000?style=plastic)](https://www.nuget.org/packages/DiscordREQ/)
 
 # Official Discord REQ API
 
