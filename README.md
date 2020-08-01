@@ -1,6 +1,6 @@
 # Official Discord REQ API
 
-An easily usable discord API for making selfbots, software handling discord in general. Here is a diagram representing the current functionalities. Website [**here**](https://discord-req.github.io/)<br>(pre releases)
+An easily usable discord API for making selfbots, software handling discord in general. Here is a diagram representing the current functionalities. Website [**here**](https://discord-req.github.io/)<br>
 
 # Download
 
