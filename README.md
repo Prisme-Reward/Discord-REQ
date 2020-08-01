@@ -34,9 +34,9 @@ An easily usable discord API for making bots, software handling discord in gener
   * Set DND
     * `Discord.REQ.UserProfile.SetDND("token");`
   * Set Offline
-    * `Discord.REQ.UserProfile.SetOffline("Username", "Email", "Password", "Tag", "Token");`
+    * `Discord.REQ.UserProfile.SetOffline("Token");`
   * Set Username
-    * `Discord.REQ.UserProfile.SetUsername("Username", "Email", "Password", "Tag", "Token");`
+    * `Discord.REQ.UserProfile.SetUsername("Token");`
   * Set Status
     * `Discord.REQ.UserProfile.SetStatus("text", "emoji", "token");`
   * Set NitroStatus
@@ -50,6 +50,28 @@ An easily usable discord API for making bots, software handling discord in gener
     * `Discord.REQ.UserServer.Create("Name", "token");`
   * Delete Guild
     * `Discord.REQ.UserServer.Delete("Server id", "Token");`
+  * Ban
+    * `Discord.REQ.UserServer.BanUser("user id", "guildid", "day", "token");`
+  * Unban
+    * `Discord.REQ.UserServer.UnBanUser("Userid", "guildid", "token");`
+  * Kick user
+    * `Discord.REQ.UserServer.KickUser("user id", "guild id", "token");`
+  * Create role
+    * `Discord.REQ.UserServer.CreateRole("guildid", "Token");`
+  * Delete Role
+    * `Discord.REQ.UserServer.DeleteRole("guild id", "roleid", "token");`
+  * Set role name
+    * `Discord.REQ.UserServer.SetRoleName("name", "guild id", "roleid", "token");`
+  * Set role permissions
+    * `Discord.REQ.UserServer.SetRolePermissions("Permissions number", "guild id", "role id", "token");`
+  * Set role color
+    * `Discord.REQ.UserServer.SetRoleColor("color number", "guildid", "role id", "Token");`
+  * Set role mentionnable
+    * `Discord.REQ.UserServer.SetRoleMentionable("guild id", "role id", "token");`
+  * Set role unmentionnable
+    * `Discord.REQ.UserServer.SetRoleUnMentionable("guild id", "role id", "Token");`
+
+  
 * Webhook 
   * Create Webhook
     * `Discord.REQ.Webhook.Create("Chan id", "token");`
