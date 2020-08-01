@@ -10,20 +10,22 @@ Click [**here**](https://github.com/Discord-REQ/Discord-REQ/releases/download/0.
 
 * Friend
   * AddFriend
-    * `Discord.REQ.Friend.AddFriend("id", "token");`
+    * `Discord.REQ.RelationShip.AddFriend("id", "token");`
   * RemoveFriend
-    * `Discord.REQ.Friend.RemoveFriend("id", "token");`
+    * `Discord.REQ.RelationShip.RemoveFriend("id", "token");`
   * BlockFriend
-    * `Discord.REQ.Friend.BlockFriend("id", "token");`
+    * `Discord.REQ.RelationShip.BlockUser("id", "token");`
+  * Unblock
+    * `Discord.REQ.RelationShip.UnblocUser("id", "token");`
 * Message
   * Send Message
-    * `Discord.REQ.Message.SendMessage("Hello world", "chanid", "token");`
+    * `Discord.REQ.Message.Send("Hello world", "chanid", "token");`
   * Delete Message
-    * `Discord.REQ.Message.DeleteMessage("chanid", "msgid", "token");`
+    * `Discord.REQ.Message.Delete("chanid", "msgid", "token");`
   * Typing
     * `Discord.REQ.Message.Typing("channelid", "token");`
   * Pins Message
-    * `Discord.REQ.Message.PinsMessage("channel id", "msgid", "token");`
+    * `Discord.REQ.Message.Pins("channel id", "msgid", "token");`
 * UserProfil
   * Set IDLE
     * `Discord.REQ.UserProfile.SetIdle("token");`
@@ -35,26 +37,37 @@ Click [**here**](https://github.com/Discord-REQ/Discord-REQ/releases/download/0.
     * `Discord.REQ.UserProfile.SetOffline("Username", "Email", "Password", "Tag", "Token");`
   * Set Username
     * `Discord.REQ.UserProfile.SetUsername("Username", "Email", "Password", "Tag", "Token");`
+  * Set Status
+    * `Discord.REQ.UserProfile.SetStatus("text", "emoji", "token");`
+  * Set NitroStatus
+    * `Discord.REQ.UserProfile.SetNitroStatus("text", "emojiname", "emoji id", "Token");`
 * Guild
   * Leave Guild
-    * `Discord.REQ.UserServer.LeaveServer("guildid", "token");`
+    * `Discord.REQ.UserServer.Leave("guildid", "token");`
   * Join Guild
-    * `Discord.REQ.UserServer.JoinServer("InviteCode", "token");`
+    * `Discord.REQ.UserServer.Join("InviteCode", "token");`
   * Create Guild
-    * `Discord.REQ.UserServer.CreateServer("Name", "token");`
+    * `Discord.REQ.UserServer.Create("Name", "token");`
   * Delete Guild
-    * `Discord.REQ.UserServer.DeleteServer("Server id", "Token");`
+    * `Discord.REQ.UserServer.Delete("Server id", "Token");`
 * Webhook 
   * Create Webhook
-    * `Discord.REQ.Webhook.CreateWebhook("Chan id", "token");`
+    * `Discord.REQ.Webhook.Create("Chan id", "token");`
   * Delete Webhook
-    * `Discord.REQ.Webhook.DeleteWebhook("Server id", "Token");`
+    * `Discord.REQ.Webhook.Delete("Server id", "Token");`
 * Group 
   * Rename group
-    * `Discord.REQ.Group.RenameGroup("groupid", "name", "token");`
+    * `Discord.REQ.Group.Rename("groupid", "name", "token");`
   * Add user to a group
-    * `Discord.REQ.Group.AddToGroup("groupid", "userid", "token");`
+    * `Discord.REQ.Group.AddUser("groupid", "userid", "token");`
   * Kick from group
-    * `Discord.REQ.Group.KickFromGroup("GroupID", "userid" "token");`
+    * `Discord.REQ.Group.KickUser("GroupID", "userid" "token");`
   * Leave group
-    * `Discord.REQ.Group.LeaveGroup("group id", "Token");`
+    * `Discord.REQ.Group.Leave("group id", "Token");`
+* Nitro
+  * Claim nitro
+    * `Discord.REQ.Nitro.Claim("nitrocode", "token");`
+  * Generate
+    * `Discord.REQ.Nitro.GenerateRandomCode();`
+  * Check nitro code
+    * `Discord.REQ.Nitro.Check("NitroCode");`
