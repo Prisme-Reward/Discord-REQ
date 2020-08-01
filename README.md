@@ -1,5 +1,5 @@
 [![NuGet](https://img.shields.io/nuget/vpre/Discord.Net.svg?maxAge=2592000?style=plastic)](https://www.nuget.org/packages/DiscordREQ/)
-
+[![Website](https://img.shields.io/badge/C%23%20Skill-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%20(100)-green?style=flat-square)](https://discord-req.github.io/)
 # Official Discord REQ API
 
 An easily usable discord API for making bots, software handling discord in general. Here is a diagram representing the current functionalities. Website [**here**](https://discord-req.github.io/)<br>
