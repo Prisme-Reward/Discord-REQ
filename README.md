@@ -4,7 +4,7 @@ An easily usable discord API for making selfbots, software handling discord in g
 
 # Download
 
-Click [**here**](https://github.com/Discord-REQ/Discord-REQ/releases/download/0.0.2/DiscordREQ.dll)<br>(pre releases)
+Click [**here**](https://github.com/Discord-REQ/Discord-REQ/releases/download/0.0.4/Discord.REQ.dll)<br>(pre releases)
 
 # How to use ?
 
