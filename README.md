@@ -4,7 +4,7 @@ An easily usable discord API for making bots, software handling discord in gener
 
 # Download
 
- Click [**here**](https://github.com/Discord-REQ/Discord-REQ/releases/download/0.0.4/Discord.REQ.dll)<br>(pre releases)
+ Click [**here**](https://www.nuget.org/packages/DiscordREQ)<br>(pre releases)
 
 # How to use ?
 
